@@ -14,7 +14,8 @@ app.use(express.urlencoded({
 // app.use(bodyParser.urlencoded());
 // app.use(bodyParser.json());
 
-const db = require('./config/keys').mongoURI;
+// const db = require('./config/keys').mongoURI;
+const db = process.env.MONGODBURI;
 
 mongoose.connect(db)
     .then(() => console.log("Mongodb connected"))
