@@ -22,7 +22,8 @@
     "mongoose": "^5.13.2"
   },
    "engines": {
-    "node": "12.22.1"
+    "node": "16.2.0",
+    "npm": "7.13.0"
   },
   "optionalDependencies": {
     "fsevents": "*"
