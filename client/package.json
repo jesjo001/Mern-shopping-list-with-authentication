@@ -28,7 +28,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "proxy": "https://shoppinglistdev.herokuapp.com/",
+  "proxy": "https://shoppinglistdev.herokuapp.com",
   "eslintConfig": {
     "extends": [
       "react-app",
